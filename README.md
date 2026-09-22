@@ -1,4 +1,4 @@
-# Load Balancer Demo
+# Round Robin Load Balancer
 
 This project demonstrates a simple round-robin load balancer built with Flask. It distributes incoming HTTP requests across four backend Flask servers and returns the response from the selected backend instance.
 
