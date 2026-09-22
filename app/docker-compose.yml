@@ -1,0 +1,25 @@
+services:
+  server1:
+    image: server
+    environment:
+      - APP=Server 1
+    ports:
+      - "8081:5001"
+  server2:
+    image: server
+    environment:
+      - APP=Server 2
+    ports:
+      - "8082:5001"
+  server3:
+    image: server
+    environment:
+      - APP=Server 3
+    ports:
+      - "9081:5001"
+  server4:
+    image: server
+    environment:
+      - APP=Server 4
+    ports:
+      - "9082:5001"
